@@ -48,20 +48,20 @@ Experiment Number	1
 Comment[IDR Experiment Name]	idr0044-mcdole-tardislightsheet/experimentA	
 Experiment Sample Type	tissue
 Experiment Description	Light-sheet imaging of post-implantation mouse development from E6.5 to E8.5			
-Experiment Size	5D Images: 	"Average Image Dimension (XYZCT): 2169,2048,988,531"	Total Tb: 0.324	# fill in any values you know
+Experiment Size	5D Images: 	Average Image Dimension (XYZCT): 2169,2048,988,531	Total Tb: 0.324	
 Experiment Example Images	See attached: FigureForIDR.png			
-Experiment Imaging Method	light sheet fluorescence microscopy			
-Experiment Imaging Method Term Source REF	LSFM/SPIM			
+Experiment Imaging Method	light sheet fluorescence microscopy	SPIM			
+Experiment Imaging Method Term Source REF	Fbbi			
 Experiment Imaging Method Term Accession	FBbi_00000369			
 Experiment Comments				
 				
 # assay files				
-Experiment Assay File	# put in the name of the assay file			
+Experiment Assay File	idr0044-experimentA-annotation			
 Experiment Assay File Format	tab-delimited text			
-Assay Experimental Conditions	"# if there were any experimental conditions some cells were grown under as part of the study enter the information here e.g. different environmental stress conditions, or mutant background compared to wild type."			
-Assay Experimental Conditions Term Source REF	# leave blank			
-Assay Experimental Conditions Term Accession	# leave blank			
-Quality Control Description	# a brief description of the kind of quality control measures that were taken (if applicable)			
+Assay Experimental Conditions				
+Assay Experimental Conditions Term Source REF				
+Assay Experimental Conditions Term Accession				
+Quality Control Description				
 				
 # Protocols				
 Protocol Name	See attached methods	N/A	See attached methods	See attached methods
@@ -71,29 +71,27 @@ Protocol Type Term Accession	EFO_0001746	N/A
 Protocol Description	See attached methods	N/A	See attached methods	See attached methods
 				
 # Phenotypes				
-Phenotype Name	http://purl.obolibrary.org/obo/EMAP_80	http://purl.obolibrary.org/obo/EMAP_106	http://purl.obolibrary.org/obo/EMAP_147	http://purl.obolibrary.org/obo/EMAP_207
-Phenotype Description	"Theiler stage 9,10,11,12 of mouse development"			
+Phenotype Name	TS09 embryo	TS10 embryo	TS11 embryo	TS12 embryo
+Phenotype Description	Theiler stage 9,10,11,12 of mouse development.		
 Phenotype Score Type	Manual			
 Phenotype Term Source REF	OBO			
-Phenotype Term Name	# if your phenotype matches a term in the Cellular Microscopy Phenotype Ontology enter it here http://www.ebi.ac.uk/CMPO			
-Phenotype Term Accession	# if your phenotype matches a term in the Cellular Microscopy Phenotype Ontology enter the accession for the term here http://www.ebi.ac.uk/CMPO		 	
+Phenotype Term Name	TS09 embryo	TS10 embryo	TS11 embryo	TS12 embryo	
+Phenotype Term Accession	http://purl.obolibrary.org/obo/EMAP_80	http://purl.obolibrary.org/obo/EMAP_106	http://purl.obolibrary.org/obo/EMAP_147	http://purl.obolibrary.org/obo/EMAP_207		 	
 				
 				
 # Feature Level Data Files (give individual file details unless there is one file per well)				
-Feature Level Data File Name	# list any feature level table files here			
-Feature Level Data File Format	# a description of the table			
-Feature Level Data File Description	# tab-delimited text or other format			
-Feature Level Data Column Name	"# list all the columns in the table, each column in the table should be in a separate column here"			
-Feature Level Data Column Description	# describe the values in each column			
+Feature Level Data File Name				
+Feature Level Data File Format			
+Feature Level Data File Description				
+Feature Level Data Column Name			
+Feature Level Data Column Description				
 				
-#  Processed Data Files 	TGMMResults	TGMMResults	MaMuT XMLs	
+#  Processed Data Files	
 Processed Data File Name	GMEMfinalResult_frame????.xml	GMEMfinalResult_frame????.svb	Dataset1	
 Processed Data File Format	XML	SVB	XML	
-Processed Data File Description	"Spot coordinates, linkages, and parameters for each time point"	Segmentation results	TGMM results converted to TrackMate scheme	
-Processed Data Column Name	"# list each of the columns in the processed data file here, each column in the table should be ain a separate column here"			
-Processed Data Column Type	"# state the type of value in each column. Choose from: location, reagent identifier, gene identifier, gene symbol, gene description, data, phenotype, experimental condition"			
-Processed Data Column Annotation Level	"# for data and phenotype columns enter the level of the annotation so that it is clear if the value is derived from data from a image, is averaged over many images. E.g. gene, experimental condition"			
-"experimental condition and gene, phenotype, image, protein"""				
-Processed Data Column Description	"# for each data and phenotype column, enter a brief description of what the value represents"			
-Processed Data Column Link To Assay File	"# enter which column can be used to link the information in the processed data file to the assay file e.g. targeted protein, or gene identifier"			
-
+Processed Data File Description	Spot coordinates, linkages, and parameters for each time point.	Segmentation results.	TGMM results converted to TrackMate scheme.	
+Processed Data Column Name				
+Processed Data Column Type	
+Processed Data Column Annotation Level							
+Processed Data Column Description				
+Processed Data Column Link To Assay File	
